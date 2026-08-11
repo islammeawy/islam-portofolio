@@ -1,0 +1,33 @@
+export const siteConfig = {
+  name: "Islam Mekawy",
+  fullName: "Islam Osama Mekawy",
+  title: "Islam Mekawy — Software Engineer",
+  role: "Software Engineer",
+  tagline: "Building scalable full-stack software and AI-powered applications.",
+  bio: "Computer Science student at Cairo University focused on Software Engineering, scalable backend systems, and AI-powered web applications. Experienced in React, TypeScript, Node.js, Django, and PostgreSQL.",
+  url: "https://github.com/islammeawy",
+  avatarUrl: "/profile.jpg",
+  resumeUrl: "/Islam_Mekawy_Resume.pdf",
+  author: {
+    name: "Islam Mekawy",
+    legalName: "Islam Osama",
+    email: "i.mekawy.dev@gmail.com",
+    phone: "+20 111 485 1356",
+    location: "Cairo, Egypt",
+    university: "Cairo University",
+    degree: "Bachelor of Science in Computer Science",
+    graduationYear: "June 2028",
+  },
+  links: {
+    github: "https://github.com/islammeawy",
+    linkedin: "https://www.linkedin.com/in/islam-mekawy-8342bb394",
+    email: "mailto:i.mekawy.dev@gmail.com",
+    phone: "tel:+201114851356",
+    resume: "/Islam_Mekawy_Resume.pdf",
+  },
+  status: {
+    availableForHire: true,
+    currentRole: "Software Engineering Intern @ iSchool",
+    message: "Open for Software Engineering Roles",
+  },
+};
