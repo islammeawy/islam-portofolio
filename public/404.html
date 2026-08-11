@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0" />
+    <title>Redirecting...</title>
+    <script>
+      const base = '/islam-portofolio';
+      const current = window.location.pathname + window.location.search + window.location.hash;
+      const path = current.startsWith(base) ? current.slice(base.length) : current;
+      const redirectPath = path || '/';
+      const target = `${base}/?redirect=${encodeURIComponent(redirectPath)}`;
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the portfolio app…</p>
+  </body>
+</html>

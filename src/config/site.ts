@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL;
+
 export const siteConfig = {
   name: "Islam Mekawy",
   fullName: "Islam Osama Mekawy",
@@ -6,8 +8,8 @@ export const siteConfig = {
   tagline: "Building scalable full-stack software and AI-powered applications.",
   bio: "Computer Science student at Cairo University focused on Software Engineering, scalable backend systems, and AI-powered web applications. Experienced in React, TypeScript, Node.js, Django, and PostgreSQL.",
   url: "https://github.com/islammeawy",
-  avatarUrl: "/profile.jpg",
-  resumeUrl: "/Islam_Mekawy_Resume.pdf",
+  avatarUrl: `${baseUrl}profile.jpg`,
+  resumeUrl: `${baseUrl}Islam_Mekawy_Resume.pdf`,
   author: {
     name: "Islam Mekawy",
     legalName: "Islam Osama",
@@ -23,7 +25,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/islam-mekawy-8342bb394",
     email: "mailto:i.mekawy.dev@gmail.com",
     phone: "tel:+201114851356",
-    resume: "/Islam_Mekawy_Resume.pdf",
+    resume: `${baseUrl}Islam_Mekawy_Resume.pdf`,
   },
   status: {
     availableForHire: true,

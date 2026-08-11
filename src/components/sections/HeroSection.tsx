@@ -51,7 +51,7 @@ export const HeroSection: React.FC = () => {
 
             {/* Description */}
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl">
-              Computer Science student at <span className="text-slate-100 font-medium">Cairo University</span>. I build scalable full-stack web applications, optimize backend database queries, and integrate AI-powered workflows using React, TypeScript, Node.js, and Django.
+              Computer Science student at <span className="text-slate-100 font-medium">Cairo University</span>. I build scalable full-stack web applications, optimize backend database queries, and integrate AI-powered workflows using React, TypeScript, Node.js (Express), and Django.
             </p>
 
             {/* Quick Details Chips */}
